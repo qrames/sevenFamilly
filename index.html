@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <!-- CHOISIR bootstrap ou reset.css -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="node_modules/uikit/dist/css/uikit.css">
+
     <!-- <link rel="stylesheet" href="css/reset.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- chome line -->
@@ -28,15 +30,15 @@
     </header>
     <main>
         <form>
-  <fieldset>
-    <div class="form-group">
-        <label for="familly">Familly</label>
-        <select id="familly" class="form-control">
+            <fieldset>
+                <div class="form-group">
+                    <label for="familly">Familly</label>
+                    <select id="familly" class="form-control">
           <option>eat</option>
           <option>drink</option>
         </select>
-        <label for="tense">Choose your tense</label>
-        <select id="tense" class="form-control">
+                    <label for="tense">Choose your tense</label>
+                    <select id="tense" class="form-control">
           <option>Present Perfect</option>
           <option>Futur</option>
           <option>Preterite</option>
@@ -44,77 +46,61 @@
           <option>Past Perfect</option>
           <option>Present Simple</option>
         </select>
-    </div>
-    <div class="form-group">
-      <label for="question">What is your card requet?</label>
-      <input type="text" id="question" class="form-control" placeholder="now congugate this one!">
-    </div>
+                </div>
+                <div class="form-group">
+                    <label for="question">What is your card requet?</label>
+                    <input type="text" id="question" class="form-control" placeholder="now congugate this one!">
+                </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </fieldset>
-</form>
-        <div class="row">
-            <div class="col col-md-2">
-                <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-bnA43cS-ny1dxsT3jcF6e8FS7KZkYUEkY8ybnmSjqYee33Kew" alt="" class="card-img-top">
-                </img>
-                    <div class="card-body">
-                        <h5 class="card-title">futur</h5>
-                        <p class="card-text">I will run</p>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </fieldset>
+        </form>
+        <section class="uk-child-width-1-4@m" uk-grid>
+            <div>
+                <div class="uk-light uk-background-secondary  uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="img/xefsotnveui9fb6wkak2.jpg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Top</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div>
             </div>
-            <div class="col col-md-2">
-                <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-bnA43cS-ny1dxsT3jcF6e8FS7KZkYUEkY8ybnmSjqYee33Kew" alt="" class="card-img-top">
-                    </img>
-                    <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
-
+            <div>
+                <div class="uk-light uk-background-secondary  uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="img/xefsotnveui9fb6wkak2.jpg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Top</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div>
             </div>
-            <div class="col col-md-2">
-                <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-bnA43cS-ny1dxsT3jcF6e8FS7KZkYUEkY8ybnmSjqYee33Kew" alt="" class="card-img-top">
-                </img>
-                    <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
-
+            <div>
+                <div class="uk-light uk-background-secondary  uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="img/xefsotnveui9fb6wkak2.jpg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Top</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div>
             </div>
-            <div class="col col-md-2">
-                <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-bnA43cS-ny1dxsT3jcF6e8FS7KZkYUEkY8ybnmSjqYee33Kew" alt="" class="card-img-top">
-                </img>
-                    <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
-
+            <div>
+                <div class="uk-light uk-background-secondary  uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="img/xefsotnveui9fb6wkak2.jpg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Top</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div>
             </div>
-            <div class="col col-md-2">
-                <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-bnA43cS-ny1dxsT3jcF6e8FS7KZkYUEkY8ybnmSjqYee33Kew" alt="" class="card-img-top">
-                </img>
-                    <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col col-md-2">
-                <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-bnA43cS-ny1dxsT3jcF6e8FS7KZkYUEkY8ybnmSjqYee33Kew" alt="" class="card-img-top">
-                </img>
-                    <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
     <footer>
 
@@ -122,6 +108,8 @@
     <!-- jquery -->
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- external script -->
+    <script type="text/javascript" src="node_modules/uikit/dist/js/uikit-icons.min.js"></script>
+    <script type="text/javascript" src="node_modules/uikit/dist/js/uikit.min.js"></script>
 
     <!-- my script -->
     <script src="js/script.js"></script>
