@@ -1,17 +1,55 @@
 {
     "toEat": {
-        "PresentSimple":
-        "i eat",
-        "PastPerfect":
-        "i had eaten",
-        "PastContinuous":
-        "i was eating",
-        "preterite":
-        "i ate",
-        "futur":
-        "i will eat",
-        "PresentPerfect":
-        "i have eaten",
+        "PresentPerfect": "i have eaten",
+        "Futur": "i will eat",
+        "preterite": "i ate",
+        "PastContinuous": "i was eating",
+        "PastPerfect": "i had eaten",
+        "PresentSimple": "i eat",
+    },
+
+    "toDrink": {
+        "PresentPerfect": "i have drunk",
+        "Futur": "i will drink",
+        "Preterite": "i drank",
+        "PastContinuous": "i was drinking",
+        "PastPerfect": "i had drunk",
+        "PresentSimple": "i drink",
+    },
+
+    "toDance": {
+        "PresentPerfect":"i have danced",
+        "Futur":"i will dance",
+        "Preterite": "i danced",
+        "PastContinuous":"i was dancing",
+        "PastPerfect": "i had danced",
+        "PresentSimple": "i dance",
+    },
+
+    "toDrive": {
+        "PresentPerfect":"i have driven",
+        "Futur":"i will drive",
+        "preterite":"i drove",
+        "PastContinuous":"i was driving",
+        "PastPerfect":"i had driven",
+        "PresentSimple":"i drive",
+    },
+
+
+    "toRun": {
+        "PresentPerfect":"i have run",
+        "Futur":"i will run",
+        "preterite":"i ran",
+        "PastContinuous":"i was running",
+        "PastPerfect":"i had run",
+        "PresentSimple":"i run",
+
+    },
+
+
+    "toCry": {
+        "PresentPerfect"
+    }
 
 
 
